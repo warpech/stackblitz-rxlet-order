@@ -8,7 +8,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RxLet],
   template: `
     <h1>Hello from {{ name }}!</h1>
     <pre>
